@@ -1,0 +1,129 @@
+root@ee211d5479e8:/DeepSpeech# python3 DeepSpeech.py --train_files deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/train.clean.csv --dev_files deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv --checkpoint_dir deepspeech-data/checkpoints --export_dir deepspeech-data/exported-model --alphabet_config_path data/alphabet-ar.txt --train_batch_size 100 --dev_batch_size 100 --n_hidden=512 --epochs=30
+I Could not find best validating checkpoint.
+I Could not find most recent checkpoint.
+I Initializing all variables.
+I STARTING Optimization
+Epoch 0 |   Training | Elapsed Time: 0:00:27 | Steps: 67 | Loss: 96.256860                                                                            
+Epoch 0 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 86.663039 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+I Saved new best validating model with loss 86.663039 to: deepspeech-data/checkpoints/best_dev-67
+--------------------------------------------------------------------------------
+Epoch 1 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 88.283077                                                                            
+Epoch 1 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 86.034783 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+I Saved new best validating model with loss 86.034783 to: deepspeech-data/checkpoints/best_dev-134
+--------------------------------------------------------------------------------
+Epoch 2 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 87.453663                                                                            
+Epoch 2 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 84.857634 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+I Saved new best validating model with loss 84.857634 to: deepspeech-data/checkpoints/best_dev-201
+--------------------------------------------------------------------------------
+Epoch 3 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 84.675792                                                                            
+Epoch 3 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 80.663911 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+I Saved new best validating model with loss 80.663911 to: deepspeech-data/checkpoints/best_dev-268
+--------------------------------------------------------------------------------
+Epoch 4 |   Training | Elapsed Time: 0:00:22 | Steps: 67 | Loss: 78.279205                                                                            
+Epoch 4 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 87.933915 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+--------------------------------------------------------------------------------
+Epoch 5 |   Training | Elapsed Time: 0:00:22 | Steps: 67 | Loss: 76.443920                                                                            
+Epoch 5 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 71.435379 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+I Saved new best validating model with loss 71.435379 to: deepspeech-data/checkpoints/best_dev-402
+--------------------------------------------------------------------------------
+Epoch 6 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 67.063849                                                                            
+Epoch 6 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 67.459901 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+I Saved new best validating model with loss 67.459901 to: deepspeech-data/checkpoints/best_dev-469
+--------------------------------------------------------------------------------
+Epoch 7 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 60.438552                                                                            
+Epoch 7 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 60.893977 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+I Saved new best validating model with loss 60.893977 to: deepspeech-data/checkpoints/best_dev-536
+--------------------------------------------------------------------------------
+Epoch 8 |   Training | Elapsed Time: 0:00:22 | Steps: 67 | Loss: 53.791894                                                                            
+Epoch 8 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 57.215245 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+I Saved new best validating model with loss 57.215245 to: deepspeech-data/checkpoints/best_dev-603
+--------------------------------------------------------------------------------
+Epoch 9 |   Training | Elapsed Time: 0:00:22 | Steps: 67 | Loss: 48.798587                                                                            
+Epoch 9 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 56.230609 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv 
+I Saved new best validating model with loss 56.230609 to: deepspeech-data/checkpoints/best_dev-670
+--------------------------------------------------------------------------------
+Epoch 10 |   Training | Elapsed Time: 0:00:22 | Steps: 67 | Loss: 45.059150                                                                           
+Epoch 10 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 55.942285 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+I Saved new best validating model with loss 55.942285 to: deepspeech-data/checkpoints/best_dev-737
+--------------------------------------------------------------------------------
+Epoch 11 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 42.234895                                                                           
+Epoch 11 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 48.512797 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+I Saved new best validating model with loss 48.512797 to: deepspeech-data/checkpoints/best_dev-804
+--------------------------------------------------------------------------------
+Epoch 12 |   Training | Elapsed Time: 0:00:24 | Steps: 67 | Loss: 38.985437                                                                           
+Epoch 12 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 46.452548 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+I Saved new best validating model with loss 46.452548 to: deepspeech-data/checkpoints/best_dev-871
+--------------------------------------------------------------------------------
+Epoch 13 |   Training | Elapsed Time: 0:00:22 | Steps: 67 | Loss: 36.549737                                                                           
+Epoch 13 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 50.420198 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 14 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 34.973581                                                                           
+Epoch 14 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 45.090816 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+I Saved new best validating model with loss 45.090816 to: deepspeech-data/checkpoints/best_dev-1005
+--------------------------------------------------------------------------------
+Epoch 15 |   Training | Elapsed Time: 0:00:24 | Steps: 67 | Loss: 32.516229                                                                           
+Epoch 15 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 44.982291 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+I Saved new best validating model with loss 44.982291 to: deepspeech-data/checkpoints/best_dev-1072
+--------------------------------------------------------------------------------
+Epoch 16 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 30.991463                                                                           
+Epoch 16 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 45.295105 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 17 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 29.485773                                                                           
+Epoch 17 | Validation | Elapsed Time: 0:00:12 | Steps: 25 | Loss: 43.927971 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+I Saved new best validating model with loss 43.927971 to: deepspeech-data/checkpoints/best_dev-1206
+--------------------------------------------------------------------------------
+Epoch 18 |   Training | Elapsed Time: 0:00:24 | Steps: 67 | Loss: 28.296421                                                                           
+Epoch 18 | Validation | Elapsed Time: 0:00:12 | Steps: 25 | Loss: 43.104599 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+I Saved new best validating model with loss 43.104599 to: deepspeech-data/checkpoints/best_dev-1273
+--------------------------------------------------------------------------------
+Epoch 19 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 27.007259                                                                           
+Epoch 19 | Validation | Elapsed Time: 0:00:12 | Steps: 25 | Loss: 43.593685 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 20 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 25.833356                                                                           
+Epoch 20 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 41.673013 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+I Saved new best validating model with loss 41.673013 to: deepspeech-data/checkpoints/best_dev-1407
+--------------------------------------------------------------------------------
+Epoch 21 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 24.807144                                                                           
+Epoch 21 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 42.816832 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 22 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 23.748265                                                                           
+Epoch 22 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 41.857978 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 23 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 23.002567                                                                           
+Epoch 23 | Validation | Elapsed Time: 0:00:12 | Steps: 25 | Loss: 44.313034 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 24 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 22.214798                                                                           
+Epoch 24 | Validation | Elapsed Time: 0:00:12 | Steps: 25 | Loss: 44.103922 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 25 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 21.542712                                                                           
+Epoch 25 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 43.918124 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 26 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 20.746090                                                                           
+Epoch 26 | Validation | Elapsed Time: 0:00:12 | Steps: 25 | Loss: 43.611726 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 27 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 20.219369                                                                           
+Epoch 27 | Validation | Elapsed Time: 0:00:11 | Steps: 25 | Loss: 45.196950 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 28 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 19.539674                                                                           
+Epoch 28 | Validation | Elapsed Time: 0:00:12 | Steps: 25 | Loss: 44.810246 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+Epoch 29 |   Training | Elapsed Time: 0:00:23 | Steps: 67 | Loss: 18.767623                                                                           
+Epoch 29 | Validation | Elapsed Time: 0:00:12 | Steps: 25 | Loss: 46.259146 | Dataset: deepspeech-data/cv-corpus-7.0-2021-07-21/ar/clips/dev.clean.csv
+--------------------------------------------------------------------------------
+I FINISHED optimization in 0:17:57.633264
+I Exporting the model...
+I Loading best validating checkpoint from deepspeech-data/checkpoints/best_dev-1407
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/bias
+I Loading variable from checkpoint: cudnn_lstm/rnn/multi_rnn_cell/cell_0/cudnn_compatible_lstm_cell/kernel
+I Loading variable from checkpoint: layer_1/bias
+I Loading variable from checkpoint: layer_1/weights
+I Loading variable from checkpoint: layer_2/bias
+I Loading variable from checkpoint: layer_2/weights
+I Loading variable from checkpoint: layer_3/bias
+I Loading variable from checkpoint: layer_3/weights
+I Loading variable from checkpoint: layer_5/bias
+I Loading variable from checkpoint: layer_5/weights
+I Loading variable from checkpoint: layer_6/bias
+I Loading variable from checkpoint: layer_6/weights
+I Models exported at deepspeech-data/exported-model
+I Model metadata file saved to deepspeech-data/exported-model/author_model_0.0.1.md. Before submitting the exported model for publishing make sure all information in the metadata file is correct, and complete the URL fields.
