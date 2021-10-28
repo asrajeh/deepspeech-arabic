@@ -26,6 +26,9 @@ pip3 install deepspeech
 deepspeech --model common_voice-v7.0-ar.pbmm --audio common_voice_ar_24033139.wav
 ```
 
-## DeepSpeech Playbook
+## Training
+I used this crash course:
 
 https://mozilla.github.io/deepspeech-playbook/
+
+You need to preprocess the data (preprocess_cv.sh) and use Arabic alphabet (alphabet-ar.txt). Have a look at my training log file (common_voice-v7.0-ar.log).
