@@ -1,6 +1,8 @@
 # deepspeech-arabic
 
-An Arabic DeepSpeech model trained on Common Voice Corpus 7.0 (~137h)
+This is a preliminary experiment to build an end-to-end Arabic ASR using DeepSpeech engine.
+
+I used Common Voice Corpus 7.0 for training (https://commonvoice.mozilla.org/en/datasets). In this version, Arabic voices are 1,052 and the total length is 137 hours.
 
 You can download the model from here:
 
