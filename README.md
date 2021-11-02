@@ -4,7 +4,7 @@ This is a preliminary experiment to build an end-to-end Arabic ASR using DeepSpe
 
 I used Common Voice Corpus 7.0 for training (https://commonvoice.mozilla.org/en/datasets). In this version, Arabic voices are 1,052 and the total length is 137 hours. However, the model is trained on just 30 hours and tested on 12 hours. 
 
-Training on a workstation with 4 RTX GPUs took less than 20 mins. WER is very high but it can be improved with more data. I also have not used a scorer (language model) to improve the result.
+Training on a workstation with 4 RTX GPUs took less than 20 mins. WER is very high but it can be improved with more data. I also have not used a scorer (language model) to improve the result. For comparision with an alternative approach, I rerun the experiment on Kaldi to build a DNN-HMM based model. Its performance is much better (WER 29%). DeepSpeech models require a lot of recording hours (>30) before reaching an acceptable WER.
 
 You can download the model and example audio from here:
 
